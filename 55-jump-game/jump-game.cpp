@@ -8,6 +8,7 @@ public:
                 return false;
             }
             maxi = max(maxi, i+nums[i]);
+            cout << maxi;
         }
     return true;}
 };
