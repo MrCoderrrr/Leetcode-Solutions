@@ -8,10 +8,6 @@ public:
                 return false;
             }
             maxi = max(maxi, i+nums[i]);
-            cout << maxi;
         }
-        if(maxi >= n-1){
-            return true;
-        }
-    return false;}
+    return true;}
 };
