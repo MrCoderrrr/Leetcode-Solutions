@@ -17,8 +17,8 @@ public:
             return;
         }
         ans.push_back(root->val);
-        preorderTraversal(root->left);
-        preorderTraversal(root->right);
+        pre(root->left);
+        pre(root->right);
         return;
     }
     vector<int> preorderTraversal(TreeNode* root) {
